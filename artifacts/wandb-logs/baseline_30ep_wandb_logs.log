@@ -1,0 +1,61 @@
+======================================================================
+TRAINING CONFIG
+======================================================================
+  Model:       convnext_tiny.fb_in22k_ft_in1k
+  Params:      15.49M trainable / 12.35M frozen / 27.84M total
+  Train:       774 samples, 24 batches
+  Val:         210 samples, 7 batches
+  Epochs:      30
+  LR:          backbone=3e-05, heads=0.0003
+  Scheduler:   CosineAnnealing → 1e-06
+  Device:      cuda (Tesla T4)
+  W&B run:     https://wandb.ai/rixie-central-university-moscow/similis-baseline/runs/fet6xs13
+======================================================================
+  [ep 00 batch   5/24]  loss=66.026  (name=17.522  fragm=3.337  material=15.597  part=25.001)
+  [ep 00 batch  10/24]  loss=60.112  (name=15.266  fragm=2.216  material=12.958  part=20.903)
+  [ep 00 batch  15/24]  loss=55.825  (name=12.835  fragm=1.295  material=12.696  part=21.323)
+  [ep 00 batch  20/24]  loss=53.361  (name=16.058  fragm=1.542  material=10.391  part=16.096)
+ep 00/30  t_loss=51.973  v_loss=4.606  v_mF1=0.248  [name=0.177 | fragm=0.483 | material=0.234 | part=0.100]  lr=3.0e-05  ⏱231s  ETA 112m ★ NEW BEST
+ep 01/30  t_loss=38.355  v_loss=3.838  v_mF1=0.326  [name=0.237 | fragm=0.483 | material=0.380 | part=0.203]  lr=3.0e-05  ⏱255s  ETA 119m ★ NEW BEST
+ep 02/30  t_loss=28.305  v_loss=3.368  v_mF1=0.390  [name=0.290 | fragm=0.610 | material=0.412 | part=0.248]  lr=3.0e-05  ⏱248s  ETA 112m ★ NEW BEST
+ep 03/30  t_loss=22.268  v_loss=3.101  v_mF1=0.427  [name=0.383 | fragm=0.610 | material=0.439 | part=0.275]  lr=2.9e-05  ⏱249s  ETA 108m ★ NEW BEST
+ep 04/30  t_loss=18.448  v_loss=3.055  v_mF1=0.467  [name=0.398 | fragm=0.610 | material=0.484 | part=0.377]  lr=2.9e-05  ⏱250s  ETA 104m ★ NEW BEST
+ep 05/30  t_loss=15.769  v_loss=2.899  v_mF1=0.471  [name=0.410 | fragm=0.663 | material=0.477 | part=0.335]  lr=2.8e-05  ⏱257s  ETA 103m ★ NEW BEST
+ep 06/30  t_loss=13.015  v_loss=3.038  v_mF1=0.446  [name=0.414 | fragm=0.610 | material=0.480 | part=0.281]  lr=2.7e-05  ⏱254s  ETA 97m
+ep 07/30  t_loss=11.442  v_loss=2.916  v_mF1=0.461  [name=0.431 | fragm=0.610 | material=0.483 | part=0.321]  lr=2.6e-05  ⏱245s  ETA 90m
+ep 08/30  t_loss=9.953  v_loss=2.823  v_mF1=0.477  [name=0.428 | fragm=0.610 | material=0.498 | part=0.372]  lr=2.5e-05  ⏱243s  ETA 85m ★ NEW BEST
+ep 09/30  t_loss=9.256  v_loss=2.893  v_mF1=0.469  [name=0.431 | fragm=0.610 | material=0.492 | part=0.344]  lr=2.4e-05  ⏱249s  ETA 83m
+ep 10/30  t_loss=7.635  v_loss=2.803  v_mF1=0.475  [name=0.476 | fragm=0.602 | material=0.497 | part=0.328]  lr=2.3e-05  ⏱247s  ETA 78m
+ep 11/30  t_loss=6.464  v_loss=2.808  v_mF1=0.484  [name=0.493 | fragm=0.602 | material=0.496 | part=0.347]  lr=2.1e-05  ⏱244s  ETA 73m ★ NEW BEST
+ep 12/30  t_loss=6.113  v_loss=2.781  v_mF1=0.486  [name=0.467 | fragm=0.602 | material=0.504 | part=0.371]  lr=2.0e-05  ⏱253s  ETA 72m ★ NEW BEST
+ep 13/30  t_loss=5.422  v_loss=2.815  v_mF1=0.486  [name=0.464 | fragm=0.602 | material=0.500 | part=0.379]  lr=1.9e-05  ⏱245s  ETA 65m ★ NEW BEST
+ep 14/30  t_loss=4.844  v_loss=2.803  v_mF1=0.494  [name=0.467 | fragm=0.652 | material=0.496 | part=0.360]  lr=1.7e-05  ⏱250s  ETA 63m ★ NEW BEST
+ep 15/30  t_loss=4.557  v_loss=2.851  v_mF1=0.487  [name=0.477 | fragm=0.602 | material=0.498 | part=0.370]  lr=1.6e-05  ⏱250s  ETA 58m
+ep 16/30  t_loss=3.885  v_loss=2.836  v_mF1=0.475  [name=0.467 | fragm=0.602 | material=0.492 | part=0.341]  lr=1.4e-05  ⏱243s  ETA 53m
+ep 17/30  t_loss=3.859  v_loss=2.859  v_mF1=0.486  [name=0.469 | fragm=0.602 | material=0.504 | part=0.369]  lr=1.2e-05  ⏱243s  ETA 49m
+ep 18/30  t_loss=3.445  v_loss=2.858  v_mF1=0.480  [name=0.475 | fragm=0.602 | material=0.487 | part=0.356]  lr=1.1e-05  ⏱245s  ETA 45m
+ep 19/30  t_loss=3.223  v_loss=2.883  v_mF1=0.489  [name=0.487 | fragm=0.602 | material=0.496 | part=0.371]  lr=9.6e-06  ⏱243s  ETA 40m
+ep 20/30  t_loss=3.072  v_loss=2.883  v_mF1=0.487  [name=0.483 | fragm=0.602 | material=0.492 | part=0.372]  lr=8.3e-06  ⏱243s  ETA 36m
+ep 21/30  t_loss=2.881  v_loss=2.888  v_mF1=0.486  [name=0.473 | fragm=0.602 | material=0.492 | part=0.376]  lr=7.0e-06  ⏱243s  ETA 32m
+ep 22/30  t_loss=2.919  v_loss=2.948  v_mF1=0.482  [name=0.467 | fragm=0.602 | material=0.494 | part=0.364]  lr=5.8e-06  ⏱238s  ETA 28m
+ep 23/30  t_loss=2.780  v_loss=2.931  v_mF1=0.483  [name=0.470 | fragm=0.602 | material=0.492 | part=0.371]  lr=4.7e-06  ⏱241s  ETA 24m
+ep 24/30  t_loss=2.637  v_loss=2.910  v_mF1=0.483  [name=0.457 | fragm=0.602 | material=0.494 | part=0.377]  lr=3.8e-06  ⏱241s  ETA 20m
+ep 25/30  t_loss=2.531  v_loss=2.933  v_mF1=0.484  [name=0.470 | fragm=0.602 | material=0.494 | part=0.370]  lr=2.9e-06  ⏱246s  ETA 16m
+ep 26/30  t_loss=2.625  v_loss=2.929  v_mF1=0.484  [name=0.470 | fragm=0.602 | material=0.494 | part=0.370]  lr=2.3e-06  ⏱244s  ETA 12m
+ep 27/30  t_loss=2.625  v_loss=2.938  v_mF1=0.485  [name=0.470 | fragm=0.602 | material=0.494 | part=0.375]  lr=1.7e-06  ⏱242s  ETA 8m
+ep 28/30  t_loss=2.560  v_loss=2.940  v_mF1=0.485  [name=0.470 | fragm=0.602 | material=0.494 | part=0.376]  lr=1.3e-06  ⏱244s  ETA 4m
+ep 29/30  t_loss=2.444  v_loss=2.941  v_mF1=0.485  [name=0.470 | fragm=0.602 | material=0.494 | part=0.376]  lr=1.1e-06  ⏱246s  ETA 0m
+
+======================================================================
+TRAINING COMPLETE
+======================================================================
+  Total time:        123.5 min
+  Best epoch:        29
+  Best val mF1:      0.4937
+    name_norm: macro_f1 at best = logged in W&B
+    fragm_norm: macro_f1 at best = logged in W&B
+    material_norm: macro_f1 at best = logged in W&B
+    part_norm: macro_f1 at best = logged in W&B
+  Checkpoints:       /content/drive/MyDrive/cu_data/similis_artifacts/checkpoints/best.pt, last.pt
+  W&B run:           https://wandb.ai/rixie-central-university-moscow/similis-baseline/runs/fet6xs13
+======================================================================

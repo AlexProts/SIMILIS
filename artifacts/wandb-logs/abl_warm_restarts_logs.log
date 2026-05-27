@@ -1,0 +1,20 @@
+  ep 00/20  t_loss=50.827  v_mF1=0.258  [name=0.166 | fragm=0.483 | material=0.263 | part=0.119]  lr=3.0e-05  ⏱618s  ETA 196m ★
+  ep 01/20  t_loss=38.662  v_mF1=0.313  [name=0.241 | fragm=0.483 | material=0.372 | part=0.155]  lr=2.9e-05  ⏱343s  ETA 103m ★
+  ep 02/20  t_loss=28.855  v_mF1=0.385  [name=0.363 | fragm=0.551 | material=0.458 | part=0.168]  lr=2.7e-05  ⏱350s  ETA 99m ★
+  ep 03/20  t_loss=22.756  v_mF1=0.400  [name=0.391 | fragm=0.483 | material=0.499 | part=0.226]  lr=2.4e-05  ⏱359s  ETA 96m ★
+  ep 04/20  t_loss=19.958  v_mF1=0.419  [name=0.401 | fragm=0.551 | material=0.491 | part=0.235]  lr=2.0e-05  ⏱355s  ETA 89m ★
+  ep 05/20  t_loss=17.757  v_mF1=0.456  [name=0.429 | fragm=0.663 | material=0.495 | part=0.237]  lr=1.6e-05  ⏱354s  ETA 83m ★
+  ep 06/20  t_loss=16.223  v_mF1=0.481  [name=0.455 | fragm=0.663 | material=0.496 | part=0.311]  lr=1.1e-05  ⏱359s  ETA 78m ★
+  ep 07/20  t_loss=14.913  v_mF1=0.479  [name=0.418 | fragm=0.663 | material=0.493 | part=0.342]  lr=7.0e-06  ⏱360s  ETA 72m
+  ep 08/20  t_loss=14.777  v_mF1=0.479  [name=0.432 | fragm=0.663 | material=0.492 | part=0.331]  lr=3.8e-06  ⏱357s  ETA 65m
+  ep 09/20  t_loss=14.054  v_mF1=0.476  [name=0.432 | fragm=0.663 | material=0.497 | part=0.312]  lr=1.7e-06  ⏱354s  ETA 59m
+  ep 10/20  t_loss=14.025  v_mF1=0.503  [name=0.475 | fragm=0.710 | material=0.499 | part=0.330]  lr=3.0e-05  ⏱344s  ETA 52m ★
+  ep 11/20  t_loss=12.445  v_mF1=0.513  [name=0.460 | fragm=0.790 | material=0.500 | part=0.302]  lr=2.9e-05  ⏱351s  ETA 47m ★
+  ep 12/20  t_loss=10.606  v_mF1=0.513  [name=0.478 | fragm=0.710 | material=0.507 | part=0.357]  lr=2.7e-05  ⏱354s  ETA 41m
+  ep 13/20  t_loss=8.897  v_mF1=0.521  [name=0.488 | fragm=0.752 | material=0.511 | part=0.332]  lr=2.4e-05  ⏱355s  ETA 35m ★
+  ep 14/20  t_loss=7.755  v_mF1=0.532  [name=0.505 | fragm=0.738 | material=0.504 | part=0.384]  lr=2.0e-05  ⏱353s  ETA 29m ★
+  ep 15/20  t_loss=6.719  v_mF1=0.511  [name=0.493 | fragm=0.710 | material=0.500 | part=0.340]  lr=1.6e-05  ⏱360s  ETA 24m
+  ep 16/20  t_loss=6.266  v_mF1=0.506  [name=0.455 | fragm=0.697 | material=0.502 | part=0.372]  lr=1.1e-05  ⏱349s  ETA 17m
+  ep 17/20  t_loss=6.150  v_mF1=0.507  [name=0.497 | fragm=0.697 | material=0.502 | part=0.332]  lr=7.0e-06  ⏱357s  ETA 12m
+  ep 18/20  t_loss=5.690  v_mF1=0.521  [name=0.502 | fragm=0.697 | material=0.501 | part=0.384]  lr=3.8e-06  ⏱353s  ETA 6m
+  ep 19/20  t_loss=5.438  v_mF1=0.508  [name=0.495 | fragm=0.697 | material=0.501 | part=0.341]  lr=1.7e-06  ⏱352s  ETA 0m

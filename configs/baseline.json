@@ -1,0 +1,29 @@
+{
+  "seed": 98,
+  "target_fields": ["name_norm", "fragm_norm", "material_norm", "part_norm"],
+  "backbone": "convnext_tiny.fb_in22k_ft_in1k",
+  "image_size": 384,
+  "pad_fill": 255,
+  "optimizer": "AdamW",
+  "lr_backbone": 0.00003,
+  "lr_heads": 0.0003,
+  "weight_decay": 0.0001,
+  "scheduler": "CosineAnnealingLR",
+  "eta_min": 0.000001,
+  "epochs": 30,
+  "batch_size": 32,
+  "unfreeze_from_stage": 3,
+  "confidence_thresholds": {
+    "name_norm": 0.4,
+    "material_norm": 0.5,
+    "part_norm": 0.5,
+    "fragm_norm": 0.3
+  },
+  "split": {
+    "type": "group-aware stratified split",
+    "group_key": "code prefix before the last numeric segment",
+    "train": 0.663,
+    "val": 0.18,
+    "test_open": 0.157
+  }
+}

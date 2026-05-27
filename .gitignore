@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+data/
+artifacts/checkpoints/*.pt
+artifacts/checkpoints/*.pth
+artifacts/checkpoints/*.ckpt
+artifacts/preds/*.csv
+wandb/
